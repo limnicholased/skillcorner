@@ -1,0 +1,15 @@
+name: skillcorner
+version: "1.0"
+profile: skillcorner
+config-version: 2
+
+vars:
+  hz: 10.0
+  sprint_speed_mps: 7.0
+  min_duration_s: 1.0
+
+models:
+  skillcorner:
+    +materialized: table
+    staging:
+      +materialized: view

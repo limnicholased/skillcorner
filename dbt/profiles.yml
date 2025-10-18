@@ -1,0 +1,8 @@
+skillcorner:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: ./skillcorner.duckdb
+      threads: 4
+      extensions: ["httpfs", "parquet", "json"]
