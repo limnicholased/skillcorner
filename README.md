@@ -1,9 +1,9 @@
 ﻿# skillcorner-etl
 
 Local, zero-cost ETL & analytics for open football tracking data.
-- Transforms in SQL (dbt-duckdb)
+- Transforms in SQL (dbt)
 - Notebooks for EDA, validation, and viz
-- Final deliverable: player-level CSV
+- Shared output: player-level CSV
 
 ## Quickstart (local)
 1) Create venv, install deps
